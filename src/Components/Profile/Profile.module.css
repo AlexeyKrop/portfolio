@@ -1,11 +1,10 @@
 .wrapper{
-    padding-top: 120px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 120px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background: lightcyan;
 }
 .photo{
     max-width: 500px;

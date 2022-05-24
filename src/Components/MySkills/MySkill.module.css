@@ -1,8 +1,21 @@
 .wrapper{
-    padding-top: 120px;
+    padding: 120px 15px;
+    background: lavenderblush;
 }
 .block{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title{
+    border: 1px solid salmon;
+}
+.title p {
+    text-align: center;
+}
+@media  (max-width: 576px){
+    .block{
+        justify-content: center;
+    }
 }

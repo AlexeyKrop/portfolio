@@ -4,7 +4,9 @@ import s from './MySkill.module.css'
 const MySkills = () => {
   return (
     <div className={s.wrapper}>
-      <p>Мои скиллы</p>
+      <div className={s.title}>
+        <p>Мои скиллы</p>
+      </div>
       <div className={s.block}>
         <Skill/>
         <Skill/>
