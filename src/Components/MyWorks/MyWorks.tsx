@@ -1,13 +1,12 @@
 import React from 'react';
-import Skill from "./Skill/Skill";
-import s from './MySkill.module.css'
-
-const MySkills = () => {
+import s from './MyWorks.module.css'
+import Skill from "../MySkills/Skill/Skill";
+const MyWorks = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.about}>
         <div className={s.title}>
-          <p>Мои скиллы</p>
+          <p>Мои работы</p>
         </div>
         <div className={s.block}>
           <Skill/>
@@ -19,4 +18,4 @@ const MySkills = () => {
   );
 };
 
-export default MySkills;
+export default MyWorks;

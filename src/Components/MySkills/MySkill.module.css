@@ -2,6 +2,9 @@
     padding: 120px 15px;
     background: lavenderblush;
 }
+.about{
+    border: 1px solid lawngreen;
+}
 .block{
     display: flex;
     align-items: center;

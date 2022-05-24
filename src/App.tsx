@@ -3,6 +3,7 @@ import './App.css';
 import {Header} from "./Components/Header/Header";
 import Profile from "./Components/Profile/Profile";
 import MySkills from "./Components/MySkills/MySkills";
+import MyWorks from "./Components/MyWorks/MyWorks";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className='container'>
         <Profile />
         <MySkills />
+        <MyWorks />
       </main>
     </div>
   );
