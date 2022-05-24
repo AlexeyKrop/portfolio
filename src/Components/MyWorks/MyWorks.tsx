@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './MyWorks.module.css'
-import Skill from "../MySkills/Skill/Skill";
+import Work from '../MyWorks/Work/Work';
+
 const MyWorks = () => {
   return (
     <div className={s.wrapper}>
@@ -9,9 +10,9 @@ const MyWorks = () => {
           <p>Мои работы</p>
         </div>
         <div className={s.block}>
-          <Skill/>
-          <Skill/>
-          <Skill/>
+          <Work />
+          <Work />
+          <Work />
         </div>
       </div>
     </div>

@@ -2,3 +2,23 @@
     padding: 120px 15px;
     background: lavender;
 }
+.about{
+    border: 1px solid lawngreen;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title{
+    border: 1px solid salmon;
+}
+.title p {
+    text-align: center;
+}
+@media  (max-width: 576px){
+    .block{
+        justify-content: center;
+    }
+}
