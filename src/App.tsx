@@ -5,6 +5,8 @@ import Profile from "./Components/Profile/Profile";
 import MySkills from "./Components/MySkills/MySkills";
 import MyWorks from "./Components/MyWorks/MyWorks";
 import Contacts from "./Components/Contacts/Contacts";
+import HireForWork from "./Components/HireForWork/HireForWork";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -17,7 +19,11 @@ function App() {
         <MySkills />
         <MyWorks />
         <Contacts/>
+        <HireForWork />
       </main>
+      <footer className='container'>
+        <Footer />
+      </footer>
     </div>
   );
 }

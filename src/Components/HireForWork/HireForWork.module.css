@@ -1,24 +1,15 @@
 .wrapper{
     padding: 120px 15px;
-    background: lavenderblush;
+    background: lightseagreen;
 }
 .block{
     border: 1px salmon solid;
 }
-.block p {
+.block__title p{
     text-align: center;
-}
-.form_wrapper{
-    border: 1px solid blue;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 .btn {
     display: block;
-    box-sizing: border-box;
     padding: 0 20px;
     margin: 0 auto;
     outline: none;

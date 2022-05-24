@@ -1,0 +1,24 @@
+.wrapper{
+    padding: 120px 15px;
+    background: darkcyan;
+}
+.block p {
+    text-align: center;
+}
+.list{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    max-width: 700px;
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid lawngreen;
+    display: flex;
+}
+.item{
+    border: 1px solid red;
+    width: 100px;
+}
+.active{
+    background: seagreen;
+}
