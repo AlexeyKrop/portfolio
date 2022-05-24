@@ -5,4 +5,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+.photo{
+    max-width: 500px;
+    width: 100%;
+}
+.photo img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px
 }
