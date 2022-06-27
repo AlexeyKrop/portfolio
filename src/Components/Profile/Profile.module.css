@@ -36,19 +36,28 @@ h3{
 p{
     color: #a9afc3
 }
-/*span {*/
-/*    animation-duration: 3s;*/
-/*    animation-name: slidein;*/
-/*}*/
+.line1{
+    position: relative;
+    top: 50%;
+    width: 12em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 120%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
 
-/*@keyframes slidein {*/
-/*    from {*/
-/*        margin-left: 100%;*/
-/*        width: 200%;*/
-/*    }*/
-
-/*    to {*/
-/*        margin-left: 0%;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
+.animTypewriter{
+    animation: typewriter 4s steps(30) 1s 1 normal both,
+    blinkTextCursor 500ms steps(30) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 14em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
