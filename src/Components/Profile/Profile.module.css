@@ -1,3 +1,6 @@
+.wrapper{
+    background-color: black;
+}
 .content{
     padding: 120px 15px;
     max-width: 1200px;
@@ -28,6 +31,7 @@ h3{
     margin: 0 0 15px 0;
     font-size: 22px;
     font-weight: 400;
+    color: white;
 }
 p{
     color: #a9afc3

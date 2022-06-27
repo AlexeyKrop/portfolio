@@ -4,6 +4,7 @@ import s from './HireForWork.module.css'
 const HireForWork = () => {
   return (
     <div className={s.wrapper}>
+      <div className={s.content}>
       <div className={s.block}>
         <div className={s.block__title}>
           <p>Рассматриваю варианты удаленной работы</p>
@@ -13,6 +14,7 @@ const HireForWork = () => {
         </div>
       </div>
 
+    </div>
     </div>
   );
 };

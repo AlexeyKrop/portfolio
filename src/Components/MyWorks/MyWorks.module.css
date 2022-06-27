@@ -1,9 +1,14 @@
 .wrapper{
+    background-color: black;
+}
+.content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     padding: 120px 15px;
-    background: lavender;
 }
 .about{
-    border: 1px solid lawngreen;
+
 }
 .block{
     display: flex;
@@ -11,10 +16,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.title{
-    border: 1px solid salmon;
-}
-.title p {
+
+.blockTitle .title{
+    font-weight: 800;
+    margin: 0 0 60px 0;
+    font-size: 45px;
+    color: white;
     text-align: center;
 }
 @media  (max-width: 576px){

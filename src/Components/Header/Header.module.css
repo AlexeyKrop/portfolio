@@ -4,6 +4,7 @@
     left: 0;
     top: 0;
     background: #34495e;
+    z-index: 9;
 }
 .content{
     max-width: 1200px;
@@ -33,5 +34,5 @@
     transition: color .3s ease-in-out;
 }
 .link:hover{
-    color: #d9d7d7;
+    color: #a9afc3;
 }

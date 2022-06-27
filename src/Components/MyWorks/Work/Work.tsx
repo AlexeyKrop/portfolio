@@ -7,9 +7,9 @@ const Work = () => {
       <div className={s.block__title}>
         <button className={s.btn}>СМОТРЕТЬ</button>
       </div>
-      <div className={s.description}>
-        <p>Название проекта</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci architecto at atque dolorum ducimus eaque enim expedita itaque nam perferendis ratione recusandae, reiciendis similique voluptas. Animi consectetur illo optio.</p>
+      <div className={s.descriptionTitle}>
+        <p className={s.title}>Todolist</p>
+        <p>Проект выполнен на React, подключены библиотеки Redux,</p>
       </div>
     </div>
   );

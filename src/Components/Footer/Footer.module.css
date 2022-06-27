@@ -1,6 +1,10 @@
 .wrapper{
     padding: 120px 15px;
-    background: darkcyan;
+}
+.content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 .block p {
     text-align: center;

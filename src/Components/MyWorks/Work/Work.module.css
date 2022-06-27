@@ -4,16 +4,15 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    border: 1px solid coral;
 }
 .block__title{
     min-height: 250px;
     display: flex;align-items: center;
     justify-content: center;
-    border: 1px salmon solid;
     background-image: url("https://img.tourister.ru/files/2/5/3/2/5/1/3/1/original.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 6px;
 }
 .btn {
     display: inline-block;
@@ -25,11 +24,10 @@
     border-radius: 6px;
     height: 40px;
     line-height: 40px;
-    font-size: 17px;
-    font-weight: 600;
     text-decoration: none;
-    color: #385898;
-    background-color: #e7f3ff;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-size: 18px;
     cursor: pointer;
     user-select: none;
     appearance: none;
@@ -48,6 +46,11 @@
     pointer-events: none;
     opacity: 0.65;
 }
-.description p{
-    text-align: center;
+.descriptionTitle{
+    text-align: center
+}
+.title{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
 }

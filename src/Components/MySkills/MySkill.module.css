@@ -1,9 +1,8 @@
-.wrapper{
+.content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     padding: 120px 15px;
-    background: lavenderblush;
-}
-.about{
-    border: 1px solid lawngreen;
 }
 .block{
     display: flex;
@@ -12,9 +11,10 @@
     flex-wrap: wrap;
 }
 .title{
-    border: 1px solid salmon;
-}
-.title p {
+    margin: 0 0 60px 0;
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
     text-align: center;
 }
 @media  (max-width: 576px){

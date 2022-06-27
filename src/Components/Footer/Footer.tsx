@@ -3,6 +3,7 @@ import s from './Footer.module.css'
 const Footer = () => {
   return (
     <div className={s.wrapper}>
+      <div className={s.content}>
       <div className={s.block}>
         <p className="title">Алексей Кропотин</p>
         <ul className={s.list}>
@@ -15,6 +16,7 @@ const Footer = () => {
           <li className={s.item}></li>
         </ul>
         <p className="description">Все права зачищены</p>
+      </div>
       </div>
     </div>
   );
