@@ -11,9 +11,9 @@ const MySkills = () => {
           <p className={s.title}>Мои скиллы</p>
         </div>
         <div className={s.block}>
-          <Skill/>
-          <Skill/>
-          <Skill/>
+          <Skill title={'React'} description={'dsfdsfsdfdsf'}/>
+          <Skill title={'Redux'} description={'lorem*dfjkfdslkjghdflksjfvfdsg fldks jhgdflskhjgfdsjfgdhs  lkjdhsglkfjdhsg lkdjshgldfksh ldfksh jsdflhjdfsglkjhdlkjdgfsh lg'}/>
+          <Skill title={'TS'} description={''}/>
         </div>
       </div>
       </div>

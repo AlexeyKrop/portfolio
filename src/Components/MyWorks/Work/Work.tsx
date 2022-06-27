@@ -3,7 +3,7 @@ import s from "./Work.module.css";
 
 const Work = () => {
   return (
-    <div className={s.wrapper}>
+    <div className={s.wrapper} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
       <div className={s.block__title}>
         <button className={s.btn}>СМОТРЕТЬ</button>
       </div>
