@@ -1,11 +1,19 @@
 .wrapper{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #34495e;
+}
+.content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 15px;
-    background: aquamarine;
-    
 }
 .list{
     max-width: 400px;
@@ -17,13 +25,13 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    border: 1px solid blue;
 }
 .link{
     text-decoration: none;
-    color: seagreen;
+    font-weight: 500;
+    color: #fff;
     transition: color .3s ease-in-out;
 }
 .link:hover{
-    color: lightseagreen;
+    color: #d9d7d7;
 }

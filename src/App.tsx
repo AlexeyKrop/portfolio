@@ -14,7 +14,7 @@ function App() {
       <header className="App-header container">
           <Header/>
       </header>
-      <main className='container'>
+      <main>
         <Profile />
         <MySkills />
         <MyWorks />

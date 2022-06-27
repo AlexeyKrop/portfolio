@@ -3,6 +3,7 @@ import s from './Header.module.css'
 export const Header = () => {
   return(
     <div className={s.wrapper}>
+      <nav className={s.content}>
       <div>Header</div>
       <ul className={s.list}>
         <li className={s.item}><a href="/" className={s.link}>Главная</a></li>
@@ -10,6 +11,7 @@ export const Header = () => {
         <li className={s.item}><a href="/" className={s.link}>Работа</a></li>
         <li className={s.item}><a href="/" className={s.link}>Контакты</a></li>
       </ul>
+      </nav>
     </div>
   )
 }
