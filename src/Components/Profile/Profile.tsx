@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import s from './Profile.module.css'
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import {ParticlesBg} from "../Particles/Particles";
 const Profile = () => {
   useEffect(() => {
     AOS.init();
@@ -9,6 +10,7 @@ const Profile = () => {
   }, []);
   return (
     <div className={s.wrapper} >
+      <ParticlesBg/>
       <div className={s.content}>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="1200" >
         <h3>Привет! Меня зовут <span className={s.name}>Алексей Кропотин</span></h3>
