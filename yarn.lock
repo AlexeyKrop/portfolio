@@ -7295,6 +7295,14 @@ react-is@^18.0.0:
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.1.0.tgz"
   integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
 
+react-particles@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-particles/-/react-particles-2.2.1.tgz#8e029c558d56826aa6e4421c8d9e9697c257d06a"
+  integrity sha512-BbDKV9rWq+6ypvuRoKPd2go1lpx2oSXrB+2LHQpWAwRDFlpAvpAFbVNeiGYMvcJUFPBbRYBLFMWbRuPAOip1uA==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    tsparticles-engine "^2.2.1"
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
@@ -8495,6 +8503,20 @@ tsparticles-plugin-polygon-mask@^2.2.1:
   integrity sha512-Nh0zAXAX5AF6EepiQ+0+O0z0aes+YeY7PplHDlf9sa2zHBbpSkhZnYxlFOZDlsK7tkjk04opuw62gQgfIVM6UQ==
   dependencies:
     tsparticles-engine "^2.2.1"
+
+tsparticles-preset-links@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/tsparticles-preset-links/-/tsparticles-preset-links-2.2.1.tgz#0dfe8fed5d3ec01937c97812cc13f3741b9cb2a8"
+  integrity sha512-XdtYE5aogvjqEaAZaa0ykxSlZnY/8VR7QDSaJoMLJQWtBnK5MNGiUyIfikAKCnSkH9w5ckZdE7sI8aGPBvfiAA==
+  dependencies:
+    tsparticles-engine "^2.2.1"
+    tsparticles-interaction-particles-links "^2.2.1"
+    tsparticles-move-base "^2.2.1"
+    tsparticles-shape-circle "^2.2.1"
+    tsparticles-updater-color "^2.2.1"
+    tsparticles-updater-opacity "^2.2.1"
+    tsparticles-updater-out-modes "^2.2.1"
+    tsparticles-updater-size "^2.2.1"
 
 tsparticles-shape-circle@^2.2.1:
   version "2.2.1"
