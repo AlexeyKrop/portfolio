@@ -1,8 +1,10 @@
 import React from 'react';
 import s from './HireForWork.module.css'
+import {Rotate, Slide} from "react-awesome-reveal";
 
 const HireForWork = () => {
   return (
+    <Slide triggerOnce duration={1500}>
     <div className={s.wrapper}>
       <div className={s.content}>
       <div className={s.block}>
@@ -13,9 +15,9 @@ const HireForWork = () => {
           <button className={s.btn}>Нанять меня</button>
         </div>
       </div>
-
     </div>
     </div>
+    </Slide>
   );
 };
 
