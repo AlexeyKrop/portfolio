@@ -32,8 +32,12 @@
     font-weight: 500;
     color: #fff;
     transition: color .3s ease-in-out;
+    cursor: pointer;
 }
 .link:hover{
+    color: #a9afc3;
+}
+.active{
     color: #a9afc3;
 }
 .logo{

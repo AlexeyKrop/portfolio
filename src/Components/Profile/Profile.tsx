@@ -12,7 +12,7 @@ const Profile = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className={s.wrapper} >
+    <div className={s.wrapper} id={'profile'} >
       <ParticlesContainer/>
       <div className={s.content}>
       <div className={s.textBlock} data-aos="fade-right" data-aos-delay="800" data-aos-duration="1200" >

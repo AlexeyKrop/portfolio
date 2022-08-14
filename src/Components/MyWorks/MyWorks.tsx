@@ -4,7 +4,7 @@ import Work from '../MyWorks/Work/Work';
 
 const MyWorks = () => {
   return (
-      <div className={s.wrapper}>
+      <div className={s.wrapper} id={'projects'}>
         <div className={s.content}>
           <div className={s.about}>
             <div className={s.blockTitle}>
