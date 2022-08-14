@@ -5,8 +5,8 @@ import {Button} from "../Button/Button";
 const Contacts = () => {
   return (
     <div className={s.wrapper} id={'contacts'}>
-      <div className={s.content}>
-      <div className={s.block} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
+      <div className={s.content} >
+      <div  className={s.block}  data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
         <p className={s.title}>Contacts</p>
         <form id="form" className={s.form_wrapper} >
           <input className={s.form_input} id="name" type="text" placeholder="NAME *"/>

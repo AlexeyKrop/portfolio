@@ -28,20 +28,17 @@ export const Header = () => {
         {/*<div><p className={s.logo}>Alexey Kropotin</p></div>*/}
         <ul className={s.list}>
           {listItems.map((item, index) => (
-            <Link key={index}
-                  className={s.link}
-                  activeClass={s.active}
-                  to={item.to}
-                  spy={true}
-                  smooth={true}
-                  hashSpy={true}
-                  offset={50}
-                  duration={500}
-                  isDynamic={true}
-                  ignoreCancelEvents={false}
-            >
-              {item.text}
-            </Link>
+            <li className={s.link} key={index}>
+              <Link
+                activeClass='active'
+                to={item.to}
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={0}
+              >
+                {item.text}
+              </Link></li>
           ))}
         </ul>
       </nav>
