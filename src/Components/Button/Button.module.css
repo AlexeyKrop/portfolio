@@ -1,5 +1,7 @@
 .btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     margin: 0 auto;
     outline: none;
@@ -28,4 +30,8 @@
 .btn:disabled {
     pointer-events: none;
     opacity: 0.65;
+}
+.link{
+    text-decoration: none;
+    color: #1a1a1a;
 }
