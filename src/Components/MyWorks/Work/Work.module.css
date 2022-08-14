@@ -4,12 +4,9 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    border: 1.7px solid rgba(200, 137, 230, 0.637);
     border-radius: 6px
 }
-.wrapper:hover{
-    border: 2.2px solid rgba(197, 115, 230, 0.883);
-}
+
 .block__title{
     min-height: 250px;
     display: flex;align-items: center;

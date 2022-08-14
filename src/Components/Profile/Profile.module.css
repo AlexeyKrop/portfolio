@@ -34,8 +34,8 @@
 }
 
 h3 {
-    margin: 0 0 15px 0;
-    font-size: 22px;
+    margin: 15px 0;
+    font-size: 260%;
     font-weight: 400;
     color: white;
 }
@@ -43,11 +43,44 @@ h3 {
 p {
     color: #a9afc3;
 }
-
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 1.7s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
 .text {
     color: #a9afc3;
-    font-size: 120%;
+    font-size: 160%;
     text-align: center;
+    margin: 0;
 }
 
 .textBlock {
@@ -96,5 +129,10 @@ p {
 @media (max-width: 992px) {
     .content {
         justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    h3 {
+        font-size: 200%;
     }
 }
