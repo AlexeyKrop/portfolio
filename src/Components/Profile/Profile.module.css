@@ -34,7 +34,18 @@ h3{
     color: white;
 }
 p{
-    color: #a9afc3
+
+}
+.text{
+    color: #a9afc3 ;
+    font-size: 120%;
+    text-align: center;
+}
+.textBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .line1{
     position: relative;
@@ -60,4 +71,9 @@ p{
 @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
+}
+@media  (max-width: 992px){
+    .content{
+        justify-content: center;
+    }
 }

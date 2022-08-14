@@ -3,6 +3,8 @@ import s from './Profile.module.css'
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import {ParticlesContainer} from "../Particles/Particle";
+import ReactTypingEffect from "react-typing-effect";
+
 const Profile = () => {
   useEffect(() => {
     AOS.init();
@@ -12,9 +14,10 @@ const Profile = () => {
     <div className={s.wrapper} >
       <ParticlesContainer/>
       <div className={s.content}>
-      <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="1200" >
+      <div className={s.textBlock} data-aos="fade-right" data-aos-delay="800" data-aos-duration="1200" >
         <h3>Привет! Меня зовут <span className={s.name}>Алексей Кропотин</span></h3>
-        <p className={`${s.line1} ${s.animTypewriter}`}>Я front-end разработчик. </p>
+        <ReactTypingEffect className={s.text} text={'Я front-end разработчик.'}/>
+        {/*<p className={`${s.line1} ${s.animTypewriter}`}>Я front-end разработчик. </p>*/}
       </div>
       <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200" className={s.photo}>
         <img src="https://s1.cdn.teleprogramma.pro/wp-content/uploads/2020/01/a76ebd11ecf1ab90a360b056f49b90a0.jpg" alt="profile_image"/>
