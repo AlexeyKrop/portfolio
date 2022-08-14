@@ -4,6 +4,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 import {ParticlesContainer} from "../Particles/Particle";
 import ReactTypingEffect from "react-typing-effect";
+import {Effect} from "../Effect/Effect";
 
 const Profile = () => {
   useEffect(() => {
@@ -20,7 +21,8 @@ const Profile = () => {
         {/*<p className={`${s.line1} ${s.animTypewriter}`}>Я front-end разработчик. </p>*/}
       </div>
       <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200" className={s.photo}>
-        <img src="https://s1.cdn.teleprogramma.pro/wp-content/uploads/2020/01/a76ebd11ecf1ab90a360b056f49b90a0.jpg" alt="profile_image"/>
+        <Effect />
+        {/*<img src="https://s1.cdn.teleprogramma.pro/wp-content/uploads/2020/01/a76ebd11ecf1ab90a360b056f49b90a0.jpg" alt="profile_image"/>*/}
       </div>
     </div>
     </div>
