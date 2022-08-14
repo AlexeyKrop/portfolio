@@ -8,7 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #191c26;
 }
-
+input:-webkit-autofill {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #7e7e7e;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

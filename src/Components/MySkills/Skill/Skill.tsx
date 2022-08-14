@@ -8,7 +8,6 @@ type SkillPropsType = {
 }
 const Skill = (props: SkillPropsType) => {
   return (
-
       <Tilt>
         <div data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200" className={s.wrapper}>
           <div className={s.blockTitle}>

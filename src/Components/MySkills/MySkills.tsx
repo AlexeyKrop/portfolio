@@ -16,7 +16,7 @@ const MySkills = () => {
       <div className={s.content}>
         <div className={s.about}>
           <div className={s.blockTitle}>
-            <p className={s.title}>Мои скиллы</p>
+            <p className={s.title}>Professional Skillset</p>
           </div>
           <div className={s.block}>
             <Skill icon={<DiReact className={s.iconSkill}/>} title={'React'}/>

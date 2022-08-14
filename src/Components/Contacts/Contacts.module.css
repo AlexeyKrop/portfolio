@@ -37,34 +37,11 @@
     padding-left: 12px;
     outline: none;
 }
-.btn {
-    display: block;
-    box-sizing: border-box;
-    padding: 0 20px;
-    margin: 0 auto;
-    outline: none;
-    border: none;
-    border-radius: 6px;
-    height: 40px;
-    line-height: 40px;
-    color: #1a1a1a;
-    font-weight: 500;
-    font-size: 18px;
-    cursor: pointer;
-    user-select: none;
-    appearance: none;
-    touch-action: manipulation;
-}
-.btn:focus-visible {
-    box-shadow: 0 0 0 2px #666;
-}
-.btn:hover {
-    background-color: #DBE7F2;
-}
-.btn:active {
-    transform: scale(0.96);
-}
-.btn:disabled {
-    pointer-events: none;
-    opacity: 0.65;
-}
+/*input:-webkit-autofill,*/
+/*input:-webkit-autofill:hover,*/
+/*input:-webkit-autofill:focus,*/
+/*input:-webkit-autofill:active {*/
+/*    transition: background-color 5000s ease-in-out 0s;*/
+/*}*/
+
+

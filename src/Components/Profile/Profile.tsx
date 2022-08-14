@@ -16,8 +16,8 @@ const Profile = () => {
       <ParticlesContainer/>
       <div className={s.content}>
       <div className={s.textBlock} data-aos="fade-right" data-aos-delay="800" data-aos-duration="1200" >
-        <h3>Привет! Меня зовут <span className={s.name}>Алексей Кропотин</span></h3>
-        <ReactTypingEffect className={s.text} text={'Я front-end разработчик.'}/>
+        <h3>Hi! I am <span className={s.name}>Alexey Kropotin</span></h3>
+        <ReactTypingEffect className={s.text} text={'Frontend developer.'}/>
         {/*<p className={`${s.line1} ${s.animTypewriter}`}>Я front-end разработчик. </p>*/}
       </div>
       <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200" className={s.photo}>

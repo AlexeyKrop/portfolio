@@ -1,23 +1,21 @@
 import React from 'react';
 import s from './HireForWork.module.css'
-import {Rotate, Slide} from "react-awesome-reveal";
+import {Button} from "../Button/Button";
 
 const HireForWork = () => {
   return (
-    <Slide triggerOnce duration={1500}>
-    <div className={s.wrapper}>
-      <div className={s.content}>
+    <div className={s.wrapper} >
+      <div className={s.content} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
       <div className={s.block}>
         <div className={s.block__title}>
-          <p>Рассматриваю варианты удаленной работы</p>
+          <p>Considering remote work options</p>
         </div>
         <div className={s.description}>
-          <button className={s.btn}>Нанять меня</button>
+          <Button name={'Hire me'} />
         </div>
       </div>
     </div>
     </div>
-    </Slide>
   );
 };
 
