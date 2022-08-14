@@ -1,7 +1,8 @@
-.wrapper{
+.wrapper {
     background-color: black;
 }
-.content{
+
+.content {
     padding: 120px 15px;
     max-width: 1200px;
     width: 100%;
@@ -11,48 +12,57 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.about_me{
+
+.about_me {
     color: white;
 }
-.name{
+
+.name {
     font-weight: 600
 }
-.photo{
+
+.photo {
     max-width: 500px;
     width: 100%;
 }
-.photo img{
+
+.photo img {
     width: 100%;
     object-fit: cover;
     overflow: hidden;
     border-radius: 10px
 }
-h3{
+
+h3 {
     margin: 0 0 15px 0;
     font-size: 22px;
     font-weight: 400;
     color: white;
 }
-p{
 
+p {
+    color: #a9afc3;
 }
-.text{
-    color: #a9afc3 ;
+
+.text {
+
     font-size: 120%;
     text-align: center;
 }
-.textBlock{
+
+.textBlock {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.line1{
+
+.line1 {
     position: relative;
     top: 50%;
     width: 12em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 120%;
     text-align: center;
     white-space: nowrap;
@@ -60,20 +70,31 @@ p{
     transform: translateY(-50%);
 }
 
-.animTypewriter{
+.animTypewriter {
     animation: typewriter 4s steps(30) 1s 1 normal both,
     blinkTextCursor 500ms steps(30) infinite normal;
 }
-@keyframes typewriter{
-    from{width: 0;}
-    to{width: 14em;}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 14em;
+    }
 }
-@keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
-@media  (max-width: 992px){
-    .content{
+
+@media (max-width: 992px) {
+    .content {
         justify-content: center;
     }
 }
