@@ -7,8 +7,7 @@ import MyWorks from "./Components/MyWorks/MyWorks";
 import Contacts from "./Components/Contacts/Contacts";
 import HireForWork from "./Components/HireForWork/HireForWork";
 import Footer from "./Components/Footer/Footer";
-import {GitHubView} from "./Components/GitHubView/GitHubView";
-
+import {ScrollUp} from "./Components/ScrollUp/ScrollUp";
 
 
 function App() {
@@ -23,6 +22,7 @@ function App() {
         <MySkills />
         <MyWorks />
         <Contacts/>
+        <ScrollUp />
         <HireForWork />
       </main>
       <footer className='container'>
