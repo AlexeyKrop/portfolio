@@ -18,7 +18,6 @@ const descriptionWork = {
   }
 }
 
-
 const MyWorks = () => {
   return (
     <div className={s.wrapper}>

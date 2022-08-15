@@ -5,7 +5,7 @@ type ButtonType = {
   callBack?: () => void
   name: string
   href?: string
-  icon?: any
+  icon?: any,
 }
 export const Button = (props: ButtonType) => {
   return (

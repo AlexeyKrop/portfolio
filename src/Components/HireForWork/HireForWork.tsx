@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './HireForWork.module.css'
 import {Button} from "../Button/Button";
+import {AiFillPhone} from "@react-icons/all-files/ai/AiFillPhone";
 
 const HireForWork = () => {
   return (
@@ -11,7 +12,7 @@ const HireForWork = () => {
           <p>Considering remote work options</p>
         </div>
         <div className={s.description}>
-          <Button name={'Hire me'} />
+          <Button icon={<AiFillPhone className={s.iconPhone}/>} href={"tel:+74951234567"} name={'Hire me'} />
         </div>
       </div>
     </div>
