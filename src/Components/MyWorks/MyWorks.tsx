@@ -37,9 +37,9 @@ const MyWorks = () => {
                   description={descriptionWork.socialNetwork.description}/>
           </div>
         </div>
-        <div className={s.githubView}>
+        <div className={s.githubView} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
           <p className={s.title}>Days I Code</p>
-          <GitHubView/>
+          <GitHubView />
         </div>
       </div>
     </div>
