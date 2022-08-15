@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './MyWorks.module.css'
 import Work from '../MyWorks/Work/Work';
-import socialNetworkBg from '../../Asset/social_network.png';
-import todolist from '../../Asset/todolist.png'
+import socialNetworkBg from '../../Assets/social_network.png';
+import todolist from '../../Assets/todolist.png'
 import {GitHubView} from "../GitHubView/GitHubView";
 
 const descriptionWork = {
