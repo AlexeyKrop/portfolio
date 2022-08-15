@@ -7,6 +7,7 @@ import {IoEarth} from "@react-icons/all-files/io5/IoEarth";
 
 type WorkProps = {
   href?: string
+  source?: string
   title?: string
   description?:string
 }
