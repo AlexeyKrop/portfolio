@@ -13,8 +13,8 @@ import {BiGitBranch} from "@react-icons/all-files/bi/BiGitBranch";
 const MySkills = () => {
   return (
     <div className={s.wrapper} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
-      <div className={s.content} id={'skills'} >
-        <div className={s.about} >
+      <div className={s.content} id={'skills'}>
+        <div className={s.about}>
           <div className={s.blockTitle}>
             <p className={s.title}>Professional Skillset</p>
           </div>
@@ -30,6 +30,7 @@ const MySkills = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

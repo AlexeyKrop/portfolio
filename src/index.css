@@ -109,7 +109,12 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-
+.react-activity-calendar__count{
+  color: #a9afc3;
+}
+.react-activity-calendar__legend-colors span{
+  color: #a9afc3;
+}
 b,
 strong {
   font-weight: bolder;

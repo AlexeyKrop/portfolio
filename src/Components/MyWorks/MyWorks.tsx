@@ -3,6 +3,8 @@ import s from './MyWorks.module.css'
 import Work from '../MyWorks/Work/Work';
 import socialNetworkBg from '../../Asset/social_network.png';
 import todolist from '../../Asset/todolist.png'
+import {GitHubView} from "../GitHubView/GitHubView";
+
 const descriptionWork = {
   socialNetwork: {
     description: 'The project is made on React on class components,written in TypeScript, used Redux, Redux-Thunk as state management, React-Router-Dom, CSS native',
@@ -34,6 +36,10 @@ const MyWorks = () => {
             <Work title={'Card'} source={descriptionWork.socialNetwork.source}
                   description={descriptionWork.socialNetwork.description}/>
           </div>
+        </div>
+        <div className={s.githubView}>
+          <p className={s.title}>Days I Code</p>
+          <GitHubView/>
         </div>
       </div>
     </div>

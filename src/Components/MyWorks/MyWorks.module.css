@@ -24,6 +24,12 @@
     color: white;
     text-align: center;
 }
+.title{
+    font-weight: 800;
+    margin: 60px 0;
+    font-size: 25px;
+    color: white;
+}
 @media  (max-width: 576px){
     .block{
         justify-content: center;
