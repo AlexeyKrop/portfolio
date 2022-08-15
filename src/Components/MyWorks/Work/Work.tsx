@@ -10,9 +10,7 @@ type WorkProps = {
   source?: string
   title?: string
   description?:string
-  bg?: {
-    socialNetworkBg: string
-  }
+  bg?: any
 }
 const Work = (props: WorkProps) => {
   const [scale, setScale] = useState(1.15);
@@ -20,7 +18,7 @@ const Work = (props: WorkProps) => {
     <Tilt tiltEnable={false} scale={scale} transitionSpeed={2500}>
       <div className={s.wrapper} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
         <div className={s.block__title}  style={{
-          backgroundImage: `url(${props.bg ? props.bg.socialNetworkBg : 'https://img.tourister.ru/files/2/5/3/2/5/1/3/1/original.jpg'})`,
+          backgroundImage: `url(${props.bg ? props.bg : 'https://img.tourister.ru/files/2/5/3/2/5/1/3/1/original.jpg'})`,
         }} >
           <div className={s.btnGroup}>
             <Button href={props.source} name={'View Source'} icon={<AiFillGithub/>}/>
