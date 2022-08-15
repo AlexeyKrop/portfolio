@@ -6,7 +6,7 @@ import {AiFillGithub} from "@react-icons/all-files/ai/AiFillGithub";
 import {IoEarth} from "@react-icons/all-files/io5/IoEarth";
 
 type WorkProps = {
-  href?: string
+  deployment?: string
   source?: string
   title?: string
   description?:string
@@ -18,8 +18,8 @@ const Work = (props: WorkProps) => {
       <div className={s.wrapper} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
         <div className={s.block__title}>
           <div className={s.btnGroup}>
-            <Button href={props.href} name={'View Source'} icon={<AiFillGithub/>}/>
-            <Button href={props.href} name={'Deployment'} icon={<IoEarth/>}/></div>
+            <Button href={props.source} name={'View Source'} icon={<AiFillGithub/>}/>
+            <Button href={props.deployment} name={'Deployment'} icon={<IoEarth/>}/></div>
         </div>
         <div className={s.descriptionTitle}>
           <p className={s.title}>{props.title}</p>

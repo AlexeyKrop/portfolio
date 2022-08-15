@@ -11,7 +11,7 @@ const descriptionWork = {
   todolist: {
     description:'The project was made on React on functional components, written in TypeScript,  Redux, Redux-thunk was used as state management, UI was developed using the MUI library, React-Router-Dom',
     source: 'https://github.com/AlexeyKrop/react-todo',
-    deployment: 'https://github.com/AlexeyKrop/social-network'
+    deployment: 'https://react-todolist-by.herokuapp.com/login'
   }
 }
 
@@ -27,9 +27,10 @@ const MyWorks = () => {
           <div className={s.block}>
             <Work title={'Social-network'} source={descriptionWork.socialNetwork.source}
                   description={descriptionWork.socialNetwork.description}/>
-            <Work title={'Todolist'} source={descriptionWork.todolist.source}
+            <Work title={'Todolist'} source={descriptionWork.todolist.source} deployment={descriptionWork.todolist.deployment}
                   description={descriptionWork.todolist.description}/>
-            <Work/>
+            <Work title={'Card'} source={descriptionWork.socialNetwork.source}
+                  description={descriptionWork.socialNetwork.description}/>
           </div>
         </div>
       </div>
