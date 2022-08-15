@@ -15,7 +15,6 @@ type WorkProps = {
   }
 }
 const Work = (props: WorkProps) => {
-  console.log(props.bg)
   const [scale, setScale] = useState(1.15);
   return (
     <Tilt tiltEnable={false} scale={scale} transitionSpeed={2500}>
