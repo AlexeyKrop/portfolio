@@ -34,10 +34,34 @@
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
-.link:hover{
-    color: #a9afc3;
-}
+/*.link:hover{*/
+/*    color: #a9afc3;*/
+/*}*/
 
 .logo{
     font-family: 'Bodoni Moda', serif;
+}
+.link {
+    font-weight: 400;
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    z-index: 1;
+}
+
+.link::after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 0;
+    border-radius: 16px;
+    background: #a9afc3;
+    bottom: 1px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out 0s;
+}
+
+.link:hover::after {
+    width: 100%;
 }
