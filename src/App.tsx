@@ -7,6 +7,7 @@ import MyWorks from "./Components/MyWorks/MyWorks";
 import Contacts from "./Components/Contacts/Contacts";
 import HireForWork from "./Components/HireForWork/HireForWork";
 import Footer from "./Components/Footer/Footer";
+import {GitHubView} from "./Components/GitHubView/GitHubView";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <main>
         <Profile />
         <MySkills />
+        {/*<GitHubView />*/}
         <MyWorks />
         <Contacts/>
         <HireForWork />
