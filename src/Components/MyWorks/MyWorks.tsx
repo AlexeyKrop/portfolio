@@ -2,7 +2,8 @@ import React from 'react';
 import s from './MyWorks.module.css'
 import Work from '../MyWorks/Work/Work';
 import socialNetworkBg from '../../Assets/social_network.png';
-import todolist from '../../Assets/todolist.png'
+import todolist from '../../Assets/todolist.png';
+import cards from '../../Assets/card.png'
 import {GitHubView} from "../GitHubView/GitHubView";
 
 const descriptionWork = {
@@ -17,6 +18,12 @@ const descriptionWork = {
     source: 'https://github.com/AlexeyKrop/react-todo',
     deployment: 'https://react-todolist-by.herokuapp.com/login',
     bg: todolist
+  },
+  cards: {
+    description:'The project was made on React on functional components with hooks, written in TypeScript, Redux was used as state management, UI was developed using the MUI library, used Redux-thunk, React-Router-Dom, formik',
+    source: 'https://github.com/AlexeyKrop/react-todo',
+    deployment: 'https://react-todolist-by.herokuapp.com/login',
+    bg: cards
   }
 }
 
@@ -33,8 +40,8 @@ const MyWorks = () => {
                   description={descriptionWork.socialNetwork.description} bg={descriptionWork.socialNetwork.bg}/>
             <Work title={'Todolist'} source={descriptionWork.todolist.source} deployment={descriptionWork.todolist.deployment}
                   description={descriptionWork.todolist.description} bg={descriptionWork.todolist.bg}/>
-            <Work title={'Card'} source={descriptionWork.socialNetwork.source}
-                  description={descriptionWork.socialNetwork.description}/>
+            <Work title={'Card'} source={descriptionWork.cards.source}
+                  description={descriptionWork.cards.description} bg={descriptionWork.cards.bg}/>
           </div>
         </div>
         <div className={s.githubView} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">
