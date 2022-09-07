@@ -13,7 +13,7 @@ const descriptionWork = {
     bg: socialNetworkBg
   },
   todolist: {
-    description:'The project was made on React on functional components, written in TypeScript,  Redux, Redux-thunk was used as state management, UI was developed using the MUI library, React-Router-Dom',
+    description:'The project was made on React on functional components with hooks, written in TypeScript, Redux was used as state management, UI was developed using the MUI library, used Redux-thunk, React-Router-Dom, formik',
     source: 'https://github.com/AlexeyKrop/react-todo',
     deployment: 'https://react-todolist-by.herokuapp.com/login',
     bg: todolist
