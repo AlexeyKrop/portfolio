@@ -6,6 +6,8 @@ import todolist from '../../Assets/todolist.png';
 import cards from '../../Assets/card.png'
 import counter from '../../Assets/counter.png'
 import tourPlan from '../../Assets/tourplan.png'
+import glo from '../../Assets/glo.png'
+
 import {GitHubView} from "../GitHubView/GitHubView";
 
 const descriptionWork = {
@@ -28,10 +30,16 @@ const descriptionWork = {
     bg: cards
   },
   counter: {
-    description:'simple project made with react and redux and css',
+    description:'Simple project made with react, redux and css',
     source: 'https://github.com/AlexeyKrop/counter.github.io',
     deployment: 'https://alexeykrop.github.io/counter.github.io/',
     bg: counter
+  },
+  glo: {
+    description:'Glo static landing page. Written in JS, Bootstrap, CSS',
+    source: 'https://github.com/AlexeyKrop/Glo',
+    deployment: 'https://alexeykrop.github.io/Glo/',
+    bg: glo
   },
   tourPlan: {
     description:'TourPlan simple static landing page for hotel. Written in HTML5, Sass, JQuery, PHPMiler',
@@ -58,6 +66,8 @@ const MyWorks = () => {
                   description={descriptionWork.cards.description} bg={descriptionWork.cards.bg}/>
             <Work title={'Counter'} source={descriptionWork.counter.source} deployment={descriptionWork.counter.deployment}
                   description={descriptionWork.counter.description} bg={descriptionWork.counter.bg}/>
+            <Work title={'3DGlo'} source={descriptionWork.glo.source} deployment={descriptionWork.glo.deployment}
+                  description={descriptionWork.glo.description} bg={descriptionWork.glo.bg}/>
             <Work title={'Tour-plan'} source={descriptionWork.tourPlan.source} deployment={descriptionWork.tourPlan.deployment}
                   description={descriptionWork.tourPlan.description} bg={descriptionWork.tourPlan.bg}/>
           </div>
