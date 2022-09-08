@@ -14,7 +14,7 @@ const descriptionWork = {
   socialNetwork: {
     description: 'The project is made on React on class components,written in TypeScript, used Redux, Redux-Thunk as state management, React-Router-Dom, CSS native',
     source: 'https://github.com/AlexeyKrop/social-network',
-    deployment: 'https://github.com/AlexeyKrop/social-network',
+    deployment: 'https://alexeykrop.github.io/social-network',
     bg: socialNetworkBg
   },
   todolist: {
@@ -59,6 +59,7 @@ const MyWorks = () => {
           </div>
           <div className={s.block}>
             <Work title={'Social-network'} source={descriptionWork.socialNetwork.source}
+                  deployment={descriptionWork.socialNetwork.deployment}
                   description={descriptionWork.socialNetwork.description} bg={descriptionWork.socialNetwork.bg}/>
             <Work title={'Todolist'} source={descriptionWork.todolist.source} deployment={descriptionWork.todolist.deployment}
                   description={descriptionWork.todolist.description} bg={descriptionWork.todolist.bg}/>
