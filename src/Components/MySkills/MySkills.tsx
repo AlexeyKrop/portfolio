@@ -5,13 +5,10 @@ import {DiReact} from "react-icons/di";
 import {SiTypescript} from "@react-icons/all-files/si/SiTypescript";
 import {SiRedux} from "@react-icons/all-files/si/SiRedux";
 import {SiJavascript} from "@react-icons/all-files/si/SiJavascript";
-import {AiFillHtml5} from "@react-icons/all-files/ai/AiFillHtml5";
-import {DiCss3} from "@react-icons/all-files/di/DiCss3";
 import {DiSass} from "@react-icons/all-files/di/DiSass";
 import {BiGitBranch} from "@react-icons/all-files/bi/BiGitBranch";
 import {SiJest} from "@react-icons/all-files/si/SiJest";
-import { TbBrandReactNative } from 'react-icons/tb';
-import {FaNode} from "@react-icons/all-files/fa/FaNode";
+
 const MySkills = () => {
   return (
     <div className={s.wrapper} data-aos="fade-right" data-aos-delay="400" data-aos-duration="1200">

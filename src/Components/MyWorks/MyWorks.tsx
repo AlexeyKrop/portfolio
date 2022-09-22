@@ -24,9 +24,9 @@ const descriptionWork = {
     bg: todolist
   },
   cards: {
-    description:'Team project, the project was made on React on functional components with hooks, written in TypeScript, Redux was used as state management, UI was developed using the MUI library, used Redux-thunk, React-Router-Dom, formik',
-    source: 'https://github.com/DmitriyKaplan28/Friday',
-    deployment: 'https://dmitriykaplan28.github.io/Friday/#/login',
+    description:'Team project, the project was made on React on functional components with hooks, written in TypeScript, Redux-Toolkit was used as state management, UI was developed using the Antd, used Redux-thunk, React-Router-Dom, Redux-hook-form',
+    source: 'https://github.com/AlexeyKrop/pack-cards',
+    deployment: 'https://alexeykrop.github.io/pack-cards/#/login',
     bg: cards
   },
   counter: {

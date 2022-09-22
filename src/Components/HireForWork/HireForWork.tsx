@@ -12,7 +12,7 @@ const HireForWork = () => {
           <p>Considering remote work options</p>
         </div>
         <div className={s.description}>
-          <Button icon={<AiFillPhone className={s.iconPhone}/>} href={"tel:+74951234567"} name={'Hire me'} />
+          <Button icon={<AiFillPhone className={s.iconPhone}/>} href={"tel:+79110877942"} name={'Hire me'} />
         </div>
       </div>
     </div>
