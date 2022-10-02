@@ -23,7 +23,6 @@ const Profile = () => {
       </div>
       <div className={s.photo}>
         <Effect />
-        {/*<img src="https://s1.cdn.teleprogramma.pro/wp-content/uploads/2020/01/a76ebd11ecf1ab90a360b056f49b90a0.jpg" alt="profile_image"/>*/}
       </div>
     </div>
     </div>

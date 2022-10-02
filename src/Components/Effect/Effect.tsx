@@ -1,6 +1,7 @@
 import React from 'react';
 import Tilt from "react-parallax-tilt";
 import s from './Effect.module.css'
+import profileImage from '../../Assets/profile.jpg'
 export const Effect = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ export const Effect = () => {
         transitionSpeed={1500}
         gyroscope={true}
       >
-        <img src="https://s1.cdn.teleprogramma.pro/wp-content/uploads/2020/01/a76ebd11ecf1ab90a360b056f49b90a0.jpg" className={s.innerElement} alt="pic" />
+        <img src={profileImage} className={s.innerElement} alt="pic" />
       </Tilt>
     </div>
   );
