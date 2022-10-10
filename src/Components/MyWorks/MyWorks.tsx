@@ -26,7 +26,7 @@ const descriptionWork = {
   cards: {
     description:'Team project, the project was made on React on functional components with hooks, written in TypeScript, Redux-Toolkit was used as state management, UI was developed using the Antd, used Redux-thunk, React-Router-Dom, Redux-hook-form',
     source: 'https://github.com/AlexeyKrop/pack-cards',
-    deployment: 'https://alexeykrop.github.io/pack-cards/#/login',
+    deployment: 'https://alexeykrop.github.io/pack-cards/',
     bg: cards
   },
   counter: {
