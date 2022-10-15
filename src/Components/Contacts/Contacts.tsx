@@ -40,7 +40,6 @@ const Contacts = () => {
               axios.post(`http://localhost:3010/sendMessage`, {
                 values
               }).then(() => console.log('успешно'))
-         
               resetForm();
             }
             }
