@@ -30,7 +30,7 @@ const Contacts = () => {
   setTimeout(() => {
     setError('')
     setSuccess('')
-  }, 2000)
+  }, 3000)
   return (
     <div className={s.wrapper} id={'contacts'}>
       <div className={s.content}>
