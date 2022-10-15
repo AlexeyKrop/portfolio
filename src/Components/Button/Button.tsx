@@ -6,11 +6,12 @@ type ButtonType = {
   name: string
   href?: string
   icon?: any,
+  type?: "button" | "submit" | "reset" | undefined
 }
 export const Button = (props: ButtonType) => {
   return (
     <div>
-      <button className={s.btn}>
+      <button type={props.type} className={s.btn}>
         {props.icon}
         <a className={s.link} target="_blank"  rel="noopener noreferrer" href={props.href}>{props.name}</a>
       </button>
