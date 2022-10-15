@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3e561e31.css",
-    "main.js": "/portfolio/static/js/main.5f77b091.js",
+    "main.js": "/portfolio/static/js/main.ffef6b5d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/glo.png": "/portfolio/static/media/glo.6cb03bec1db8d5379754.png",
-    "static/media/tourplan.png": "/portfolio/static/media/tourplan.1e16a1af99f875d94e1f.png",
-    "static/media/social_network.png": "/portfolio/static/media/social_network.3f5bdb03ad0a743a0799.png",
-    "static/media/counter.png": "/portfolio/static/media/counter.fb950a7ebb176c6cd87d.png",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.8d2454bffcf9753f5522.jpg",
+    "static/media/tourplan.jpg": "/portfolio/static/media/tourplan.1f1191518eaaecc8d23a.jpg",
+    "static/media/glo.jpg": "/portfolio/static/media/glo.bb087b358ae65a149dc9.jpg",
+    "static/media/social_network.jpg": "/portfolio/static/media/social_network.d085a620f278e40f5d18.jpg",
     "static/media/icons8-star.gif": "/portfolio/static/media/icons8-star.f70f8f84918f88f02947.gif",
+    "static/media/counter.jpg": "/portfolio/static/media/counter.500dcbdeb716875ed7a3.jpg",
     "static/media/todolist.png": "/portfolio/static/media/todolist.7bb6b741be8be0f3869e.png",
     "static/media/card.png": "/portfolio/static/media/card.83383c9dc7460fd09824.png",
     "index.html": "/portfolio/index.html",
     "main.3e561e31.css.map": "/portfolio/static/css/main.3e561e31.css.map",
-    "main.5f77b091.js.map": "/portfolio/static/js/main.5f77b091.js.map",
+    "main.ffef6b5d.js.map": "/portfolio/static/js/main.ffef6b5d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e561e31.css",
-    "static/js/main.5f77b091.js"
+    "static/js/main.ffef6b5d.js"
   ]
 }
