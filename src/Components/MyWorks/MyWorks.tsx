@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './MyWorks.module.css'
 import Work from '../MyWorks/Work/Work';
-import socialNetworkBg from '../../Assets/social_network.png';
+import socialNetworkBg from '../../Assets/social_network.jpg';
 import todolist from '../../Assets/todolist.png';
 import cards from '../../Assets/card.png'
-import counter from '../../Assets/counter.png'
-import tourPlan from '../../Assets/tourplan.png'
-import glo from '../../Assets/glo.png'
+import counter from '../../Assets/counter.jpg'
+import tourPlan from '../../Assets/tourplan.jpg'
+import glo from '../../Assets/glo.jpg'
 
 import {GitHubView} from "../GitHubView/GitHubView";
 

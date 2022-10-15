@@ -1,7 +1,7 @@
 import React from 'react';
 import Tilt from "react-parallax-tilt";
 import s from './Effect.module.css'
-import profileImage from '../../Assets/profile.jpg'
+import profileImage from '../../Assets/avatar.jpg'
 export const Effect = () => {
   return (
     <div>
