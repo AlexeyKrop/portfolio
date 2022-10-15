@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Contacts.module.css'
 import {Button} from "../Button/Button";
-import axios from "axios";
+import axios, {AxiosError} from "axios";
 import * as Yup from 'yup';
 import {Field, Form, Formik} from 'formik';
+import {Preloader} from "../Preloader/Preloader";
 
 type Values = {
   name: string;
@@ -20,6 +21,13 @@ const Contacts = () => {
     textarea: Yup.string().min(2, 'Too Short!')
       .max(50, 'Too Long!').required('Write me some message, please'),
   });
+  const [loader, setLoader] = useState<boolean>(false)
+  const [success, setSuccess] = useState<string>('')
+  const [error, setError] = useState<string>('')
+  setTimeout(() => {
+    setError('')
+    setSuccess('')
+  }, 2000)
   return (
     <div className={s.wrapper} id={'contacts'}>
       <div className={s.content}>
@@ -37,9 +45,13 @@ const Contacts = () => {
               values: Values,
               {resetForm}
             ) => {
+              setLoader(true)
               axios.post(`http://localhost:3010/sendMessage`, {
                 values
-              }).then(() => console.log('успешно'))
+              })
+                .then(() => setSuccess("The message is request success"))
+                .catch((err: AxiosError) => setError(err.message))
+                .finally(() => setLoader(false))
               resetForm();
             }
             }
@@ -53,6 +65,7 @@ const Contacts = () => {
                 <Field className={s.form_input + ' ' + s.form_email} id="email"
                        name="email"
                        placeholder="E-MAIL *"/>
+
                 {touched.email && errors.email &&
                   <div className={s.error_email}>{errors.email}</div>}
                 <Field
@@ -64,7 +77,9 @@ const Contacts = () => {
                 />
                 {errors.textarea &&
                   <div className={s.error_textarea}>{errors.textarea}</div>}
-                <Button type={'submit'} name={'Send'}/>
+                {error && <div className={s.error}>{error}</div>}
+                {success && <div className={s.success}>{success}</div>}
+                <Button icon={loader && <Preloader/>} type={'submit'} name={'Send'}/>
               </Form>
             )}
           </Formik>
