@@ -11,6 +11,9 @@ type Values = {
   email: string;
   textarea: string;
 }
+
+const URL = `http://localhost:3010/sendMessage`
+
 const Contacts = () => {
   const SignupSchema = Yup.object().shape({
     name: Yup.string()
@@ -46,7 +49,7 @@ const Contacts = () => {
               {resetForm}
             ) => {
               setLoader(true)
-              axios.post(`http://localhost:3010/sendMessage`, {
+              axios.post(URL, {
                 values
               })
                 .then(() => setSuccess("The message is request success"))
