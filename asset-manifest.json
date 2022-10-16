@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3e561e31.css",
-    "main.js": "/portfolio/static/js/main.ffef6b5d.js",
+    "main.css": "/portfolio/static/css/main.701fb956.css",
+    "main.js": "/portfolio/static/js/main.aca73cdc.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.8d2454bffcf9753f5522.jpg",
     "static/media/tourplan.jpg": "/portfolio/static/media/tourplan.1f1191518eaaecc8d23a.jpg",
@@ -12,12 +12,12 @@
     "static/media/todolist.png": "/portfolio/static/media/todolist.7bb6b741be8be0f3869e.png",
     "static/media/card.png": "/portfolio/static/media/card.83383c9dc7460fd09824.png",
     "index.html": "/portfolio/index.html",
-    "main.3e561e31.css.map": "/portfolio/static/css/main.3e561e31.css.map",
-    "main.ffef6b5d.js.map": "/portfolio/static/js/main.ffef6b5d.js.map",
+    "main.701fb956.css.map": "/portfolio/static/css/main.701fb956.css.map",
+    "main.aca73cdc.js.map": "/portfolio/static/js/main.aca73cdc.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e561e31.css",
-    "static/js/main.ffef6b5d.js"
+    "static/css/main.701fb956.css",
+    "static/js/main.aca73cdc.js"
   ]
 }
