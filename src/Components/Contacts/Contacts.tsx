@@ -22,7 +22,7 @@ const Contacts = () => {
       .required('Enter your name'),
     email: Yup.string().email('Invalid email').required('Enter your email'),
     textarea: Yup.string().min(2, 'Too Short!')
-      .max(50, 'Too Long!').required('Write me some message, please'),
+      .max(50, 'Too Long!'),
   });
   const [loader, setLoader] = useState<boolean>(false)
   const [success, setSuccess] = useState<string>('')
@@ -78,9 +78,9 @@ const Contacts = () => {
                   placeholder="MESSAGE *"
                   type="textarea"
                 />
-                {errors.textarea &&
-                  <div className={s.error_textarea}>{errors.textarea}</div>}
-                {error && <div className={s.error}>{error}</div>}
+                {/*{errors.textarea &&*/}
+                {/*  <div className={s.error_textarea}>{errors.textarea}</div>}*/}
+                {/*{error && <div className={s.error}>{error}</div>}*/}
                 {success && <div className={s.success}>{success}</div>}
                 <Button icon={loader && <Preloader/>} type={'submit'} name={'Send'}/>
               </Form>
