@@ -12,7 +12,7 @@ type Values = {
   textarea: string;
 }
 
-const URL = `http://localhost:3010/sendMessage`
+const URL = `https://portfolio-backend-gmail.herokuapp.com/sendMessage`
 
 const Contacts = () => {
   const SignupSchema = Yup.object().shape({
@@ -30,7 +30,7 @@ const Contacts = () => {
   setTimeout(() => {
     setError('')
     setSuccess('')
-  }, 3000)
+  }, 7000)
   return (
     <div className={s.wrapper} id={'contacts'}>
       <div className={s.content}>
