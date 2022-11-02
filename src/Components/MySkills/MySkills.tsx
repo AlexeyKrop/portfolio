@@ -29,8 +29,6 @@ const MySkills = () => {
             <Skill icon={<SiJavascript className={s.iconSkill}/>} title={'JS'}/>
             <Skill icon={<SiJest className={s.iconSkill}/>} title={'Unit test'}/>
             <Skill icon={<AiFillApi className={s.iconSkill}/>} title={'Rest API'}/>
-            {/*<Skill icon={<TbBrandReactNative className={s.iconSkill}/>} title={'React Native'}/>*/}
-            {/*<Skill icon={<DiAngularSimple className={s.iconSkill}/>} title={'Angular'}/>*/}
             <Skill icon={<DiCss3 className={s.iconSkill}/>} title={'Css'}/>
             <Skill icon={<DiSass className={s.iconSkill}/>} title={'Sass'}/>
             <Skill icon={<BiGitBranch className={s.iconSkill}/>} title={'Git'}/>
